@@ -1,0 +1,226 @@
+
+
+.sidear {
+  min-width: 150px;
+  width: 150px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: transparent;
+  border: 2px solid rgb(153, 183, 183);
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+  position: absolute;
+  left: 0;
+}
+
+.logo {
+  width: 70px;
+  height: 15px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.navBody {
+  width: 100%;
+  height: 70%;
+  padding-left: 10px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  box-sizing: border-box;
+  /* background-color: rgb(67, 123, 49); */
+}
+
+
+div.btn {
+  width: 80%;
+  height: 23px;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  /* background-color: #41d23a; */
+}
+
+.navicon {
+  width: 15px;
+  height: 15px;
+}
+
+.horizontal {
+  width: 100%;
+  height: 1px;
+  display: flex;
+  float: right;
+  margin-left: 7%;
+  margin-right: 0;
+  background-color: rgb(153, 183, 183);
+}
+
+.worldBuddies {
+  width: 90%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  margin-bottom: 30px;
+  /* background-color: #AD2E1E; */
+}
+
+.uddie {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img.buddie {
+  width: 25px;
+  height: 25px;
+}
+
+.radio {
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  border-radius: 100%;
+  background-color: #41d23a;
+}
+
+.noBg {
+  background-color: #fff;
+}
+
+.exitBTN {
+  width: 100px;
+  height: 30px;
+  color: #AD2E1E;
+  border-radius: 6px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid var(--Error-200, #AD2E1E);
+}
+
+
+@media only screen and (max-width: 678px) {
+  .sidear {
+    min-width: 150px;
+    width: 60%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: rgba(15, 15, 15, 1);
+    box-shadow: 0 0 6px 1.5px rgba(209, 193, 255, 0.25);
+
+    border: none;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    position: absolute;
+    left: 0;
+    margin-right: 30px;
+    z-index: 1;
+  }
+
+  .logoHolder {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -15px;
+  }
+
+  .Unmute {
+    width: 40px;
+    height: 40px;
+
+  }
+
+  .navBTNs {
+    height: 200px;
+    width: 99%;
+    margin-top: 10px;
+  }
+
+  .navBody {
+    width: 100%;
+    height: 70%;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    box-sizing: border-box;
+    /* background-color: rgb(67, 123, 49); */
+  }
+
+  div.btn {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    /* background-color: #41d23a; */
+  }
+
+  .navicon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .worldBuddies {
+    width: 90%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 20px;
+    margin-bottom: -20px;
+  }
+
+  .buddieTXT {
+    margin: 20px 0;
+  }
+
+  .img.buddie {
+    width: 30px;
+    height: 30px;
+  } 
+
+  .uddie {
+    width: 100%;
+    height: 25px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .exitBTN{
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+  }
+
+
+}
