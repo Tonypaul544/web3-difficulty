@@ -136,6 +136,14 @@
   margin: 1.5em 0;
 }
 
+.HowPlay {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
 
 /* .noNFT {
   width: 70%;
